@@ -45,8 +45,9 @@ function updateTransactionList() {
     sortedTransactions.forEach((transaction) => {
         const transactionEl = createTransactionElement(transaction);
         transactionListEl.appendChild(transactionEl);
-    });
+    })
 }
+
 
 function createTransactionElement(transaction) {
     const li = document.createElement("li");

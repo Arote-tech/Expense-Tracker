@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     background-color: linear-gradient(135deg, #2e8b57, #a8d5ba);
     min-height: 100vh;
@@ -15,6 +16,7 @@ body {
     color: #2d3436;
 }
 
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -23,6 +25,7 @@ body {
     border-radius: 24px;
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
+
 
 h1 {
     text-align: center;
@@ -33,12 +36,14 @@ h1 {
     letter-spacing: -0.5px;
 }
 
+
 h2 {
     color: #2d3748;
     margin-bottom: 1rem;
     font-size: 1.25rem;
     font-weight: 500;
 }
+
 
 .balance-container {
     text-align: center;
@@ -49,11 +54,13 @@ h2 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
+
 .balance-container h1 {
     font-size: 3rem;
     margin: 15px 0;
     margin-bottom: 20px;
 }
+
 
 .summary {
     display: grid;
@@ -61,6 +68,7 @@ h2 {
     gap: 24px;
     margin-top: 24px;
 }
+
 
 .main-content {
     display: grid;
@@ -225,6 +233,7 @@ h2 {
     flex-direction: column;
 }
 
+
 .form-container form {
     height: 100%;
     display: flex;
@@ -235,6 +244,7 @@ h2 {
 .form-group {
     margin-bottom: 20px;
 }
+
 
 label {
     display: block;
@@ -254,15 +264,18 @@ input {
     background-color: white;
 }
 
+
 input:focus {
     outline: none;
     border-color: #667eea;
     box-shadow: 0 0 0 3px rgba(182, 126, 234, 0.1);
 }
 
+
 input:hover {
    border-color: #cbd5e0; 
 }
+
 
 
 small {
@@ -271,6 +284,7 @@ small {
     margin-top: 4px;
     display: block;
 }
+
 
 
 button[type = "submit"] {
@@ -288,9 +302,11 @@ button[type = "submit"] {
     margin-top: auto;
 }
 
+
 button[type = "submit"]:active{
     transform: translateY(0);
 }
+
 
 button[type = "submit"]:hover {
     transform: translateY(-2px);
